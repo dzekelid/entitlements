@@ -9,11 +9,212 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Entitlements
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Play - Get Entitlements
+  x-api-slug: packagenameentitlements-get
+  description: Lists the user's current inapp item or subscription entitlements
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/packagenameentitlements-get-openapi.md
+- name: Google Play - Get Entitlements
+  x-api-slug: enterprisesenterpriseidusersuseridentitlements-get
+  description: Lists all entitlements for the specified user. Only the ID is set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlements-get-openapi.md
+- name: Google Play - Remove Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-delete
+  description: Removes an entitlement to an app for a user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-delete-openapi.md
+- name: Google Play - Get Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-get
+  description: Retrieves details of an entitlement.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-get-openapi.md
+- name: Google Play - Update Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-patch
+  description: Adds or updates an entitlement to an app for a user. This method supports
+    patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-patch-openapi.md
+- name: Google Play - Update Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-put
+  description: Adds or updates an entitlement to an app for a user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-put-openapi.md
+- name: Google Play - Get Entitlements
+  x-api-slug: packagenameentitlements-get
+  description: Lists the user's current inapp item or subscription entitlements
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/packagenameentitlements-get-openapi.md
+- name: Google Play - Get Entitlements
+  x-api-slug: enterprisesenterpriseidusersuseridentitlements-get
+  description: Lists all entitlements for the specified user. Only the ID is set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlements-get-openapi.md
+- name: Google Play - Remove Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-delete
+  description: Removes an entitlement to an app for a user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-delete-openapi.md
+- name: Google Play - Get Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-get
+  description: Retrieves details of an entitlement.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-get-openapi.md
+- name: Google Play - Update Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-patch
+  description: Adds or updates an entitlement to an app for a user. This method supports
+    patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-patch-openapi.md
+- name: Google Play - Update Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-put
+  description: Adds or updates an entitlement to an app for a user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-put-openapi.md
+- name: Google Play - Get Entitlements
+  x-api-slug: packagenameentitlements-get
+  description: Lists the user's current inapp item or subscription entitlements
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/packagenameentitlements-get-openapi.md
+- name: Google Play - Get Entitlements
+  x-api-slug: enterprisesenterpriseidusersuseridentitlements-get
+  description: Lists all entitlements for the specified user. Only the ID is set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlements-get-openapi.md
+- name: Google Play - Remove Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-delete
+  description: Removes an entitlement to an app for a user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-delete-openapi.md
+- name: Google Play - Get Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-get
+  description: Retrieves details of an entitlement.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-get-openapi.md
+- name: Google Play - Update Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-patch
+  description: Adds or updates an entitlement to an app for a user. This method supports
+    patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-patch-openapi.md
+- name: Google Play - Update Entitlement
+  x-api-slug: enterprisesenterpriseidusersuseridentitlementsentitlementid-put
+  description: Adds or updates an entitlement to an app for a user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/entitlements/master/_listings/google-play/enterprisesenterpriseidusersuseridentitlementsentitlementid-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.people.api.gallery.streamdata.io
